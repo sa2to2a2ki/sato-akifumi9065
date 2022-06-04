@@ -1,0 +1,252 @@
+@charset "utf-8";
+
+.potf-js, .potf-js2 {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity .3s, transform .5s;
+}
+
+.potf-js.appear, .potf-js2.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: calc(112.5% + 0.25vw);
+}
+
+body {
+  margin: 0;
+  font-family: "游ゴシック", serif, sans-serif;
+}
+
+body, h1, nav, ul, li, a {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  opacity: .6;
+}
+
+/* header */
+/* iPhone 5 */
+.header {
+  padding-bottom: 216.5px;
+  text-align: center;
+}
+
+.header-logo h1 {
+  margin: 216.5px 0 50px;
+}
+
+.header-menu nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-menu nav ul li a {
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0 3px;
+  padding: 5px;
+  border-bottom: 1px solid #000;
+}
+
+/* header */
+/* main */
+/* career */
+.career-container {
+  background-image: url(../img/wil-stewart-8weijaL92T8-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+.career h1 {
+  padding: 150px 0 100px;
+  font-size: 40px;
+}
+
+.career h2 {
+  margin: 0;
+  padding-bottom: 50px;
+  font-size: 30px;
+}
+
+.career-ex {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.career-ex1 {
+  width: 120px;
+  text-align: center;
+}
+
+.tablet-br {
+  display: none;
+}
+
+.tablet-br2 {
+  display: block;
+}
+
+.tablet-br3 {
+  display: none;
+}
+
+.tablet-br4 {
+  display: none;
+}
+
+.career-ex2 {
+  width: 200px;
+  text-align: left;
+}
+/* career */
+/* skill */
+.skill {
+  text-align: center;
+}
+
+.skill h1 {
+  font-size: 40px;
+  padding: 150px 0 100px;
+}
+
+.skill-img1 {
+  text-align: center;
+}
+
+.skill-ex1 {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.skill-ex1 p {
+  font-weight: bold;
+  margin: 0;
+  padding: 25px 0;
+  line-height: 30px;
+}
+
+.skill-img2 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.skill-ex2 {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.skill-ex2 p {
+  font-weight: bold;
+  margin: 0;
+  padding: 25px 0;
+  line-height: 30px;
+}
+
+.skill-img3 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.skill-ex3 {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.skill-ex3 p {
+  font-weight: bold;
+  margin: 0;
+  padding: 25px 0 50px;
+  line-height: 30px;
+}
+/* skill */
+/* profile */
+.profile-bg {
+  background-color: #083a5f;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile h1 {
+  font-size: 40px;
+  color: #eee;
+  padding: 150px 0 100px;
+}
+
+.profile-name {
+  text-align: center;
+}
+
+.profile-name h2 {
+  margin: 0;
+  padding-bottom: 50px;
+  font-size: 30px;
+  color: #eee;
+}
+
+.profile-img {
+  text-align: center;
+}
+
+.profile-img img {
+  width: 320px;
+  height: 415px;
+  border-radius: 20%;
+}
+
+.profile-ex {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.profile-ex p {
+  font-weight: bold;
+  line-height: 30px;
+  margin: 0;
+  padding: 25px 0 175px;
+  color: #eee;
+}
+
+.back {
+  text-align: right;
+  color: #eee;
+}
+
+.back a {
+  font-weight: bold;
+}
+/* profile */
+/* main */
+/* footer */
+
+.footer1 {
+  text-align: center;
+}
+
+.footer-sns {
+  font-size: 35px;
+}
+
+.footer-name {
+  text-align: center;
+}
+/* footer */
